@@ -1,0 +1,43 @@
+.content__block-title {
+  font-family: 'Rubik', 'Arial', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 8px;
+  color: #15ABD9;
+  text-transform: uppercase;
+}
+
+.content__block-description {
+  display: block;
+  font-family: 'Rubik', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #A1A1A1;
+}
+
+@media screen and (max-width: 585px) {
+  .content__block-title {
+    font-size: 14px;
+    text-align: center;
+  }
+  .content__block-description {
+    font-size: 13px;
+    text-align: center;
+  }
+}
+
+.content__block-head {
+  font-family: 'Roboto Condensed', 'Arial', sans-serif;
+  font-weight: 600;
+  font-size: 56px;
+  color: #F6F6F6;
+}
+
+@media screen and (max-width: 585px) {
+  .content__block-head {
+    font-size: 30px;
+    text-align: center;
+  }
+}

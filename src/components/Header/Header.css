@@ -1,0 +1,57 @@
+.header {
+  min-height: 115px;
+  box-sizing: border-box;
+  padding: 24px 0 20px 0;
+  background: #354E5B;
+}
+
+@media screen  and (max-width: 550px) {
+  .header {
+    min-height: 90px;
+    padding: 12px 0 12px 0;
+  }
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.header__logo {
+  max-width: 126px;
+  max-height: 62px;
+}
+
+.header__logo-container {
+  display: inline-block;
+  margin: 0;
+}
+
+.header__menu-btn {
+  order: 2;
+  display: none;
+  width: 50px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  background: url('../../images/icons/burger-menu-icon.svg') center center no-repeat;
+  transition: opacity 0.4s ease;
+}
+
+@media screen  and (max-width: 1140px) {
+  .header__menu-btn {
+    display: block;
+  }
+}
+
+@media screen  and (max-width: 550px) {
+  .header__menu-btn {
+    margin-left: auto;
+  }
+}
+
+.header__menu-btn:hover {
+  opacity: 0.8;
+}

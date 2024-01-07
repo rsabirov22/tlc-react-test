@@ -1,0 +1,139 @@
+.services {
+  padding: 117px 0 190px 0;
+  background: #19242D url("../../images/bg-image-2.png") center center no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 585px) {
+  .services {
+    padding: 70px 0;
+  }
+}
+
+.services__container {
+  text-align: center;
+}
+
+.services__title {
+  margin: 0 0 30px 0;
+}
+
+.services__head {
+  margin: 0 0 25px 0;
+}
+
+.services__descr-text {
+  max-width: 630px;
+  margin: 0 auto 63px auto;
+}
+
+@media screen and (max-width: 585px) {
+  .services__descr-text {
+    max-width: 420px;
+  }
+}
+
+.services__block {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.services__item {
+  box-sizing: border-box;
+  padding: 32px 30px 32px 30px;
+  border-radius: 10px;
+  border: 1px solid #15ABD9;
+  width: 31%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 891px) {
+  .services__item {
+    width: 44%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .services__item {
+    width: 100%;
+  }
+}
+
+.services__icon {
+  display: block;
+  width: 107px;
+  height: 107px;
+  margin: 0 auto 15px auto;
+}
+
+.services__item-title {
+  font-family: 'Roboto Condensed', 'Arial', sans-serif;
+  font-weight: 600;
+  font-size: 29px;
+  line-height: 1;
+  color: #15ABD9;
+  margin: 0 0 15px 0;
+}
+
+@media screen and (max-width: 1089px) {
+  .services__item-title {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 891px) {
+  .services__item-title {
+    font-size: 29px;
+  }
+}
+
+.services__item-text {
+  font-family: 'Rubik', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #F6F6F6;
+  margin: 0 0 20px 0;
+}
+
+@media screen and (max-width: 1089px) {
+  .services__item-text {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 891px) {
+  .services__item-text {
+    font-size: 16px;
+  }
+}
+
+.services__item-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin: auto 0 0 0;
+}
+
+.services__item-btn:hover .services__item-btn-text {
+  color: #F6F6F6;
+}
+
+.services__item-btn-text {
+  display: inline-block;
+  margin: 0 25px 0 0;
+  font-family: 'Roboto Condensed', 'Arial', sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 1;
+  color: #15ABD9;
+  text-transform: uppercase;
+  transition: color 0.5s ease;
+}

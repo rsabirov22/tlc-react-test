@@ -1,0 +1,81 @@
+.btn {
+  display: block;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 700;
+  letter-spacing: 1.52px;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  padding: 18px 26px 17px 26px;
+  transition: color 0.5s ease, background 0.5s ease;
+}
+
+.btn_outlined {
+  border: 1px solid #15ABD9;
+  background: transparent;
+}
+
+.btn_outlined:hover {
+  color: #15ABD9;
+}
+
+.btn_default {
+  border: 1px solid #15ABD9;
+  background: #15ABD9;
+}
+
+.btn_default:hover {
+  background: transparent;
+}
+
+@media screen  and (max-width: 550px) {
+  .btn_request {
+    display: none;
+  }
+  .btn_request-nav {
+    display: block;
+  }
+}
+
+@media screen  and (min-width: 551px) {
+  .btn_request-nav {
+    display: none;
+  }
+}
+
+@media screen  and (max-width: 1140px) {
+  .btn_request {
+    margin: 0 45px 0 auto
+  }
+}
+
+.c-input {
+  width: 100%;
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-align: left;
+  padding: 19px 25px 19px 25px;
+  height: 59px;
+  border: 1px solid #15ABD9;
+  background: transparent;
+  outline: none;
+  color: #F6F6F6;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Rubik', 'Arial', sans-serif;
+  font-weight: 400;
+  
+}
+
+.c-input::placeholder {
+  color: #A1A1A1;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Rubik', 'Arial', sans-serif;
+}
