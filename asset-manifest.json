@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.f53cc71e.css",
-    "main.js": "./static/js/main.4e3b4a11.js",
+    "main.css": "./static/css/main.e20aade6.css",
+    "main.js": "./static/js/main.fc56695e.js",
     "static/js/787.0358de2c.chunk.js": "./static/js/787.0358de2c.chunk.js",
     "static/media/bg-image-2.png": "./static/media/bg-image-2.0b51e141cd29a2d77c1e.png",
     "static/media/bg-image-1.png": "./static/media/bg-image-1.58754fffffa0a7434076.png",
@@ -12,6 +12,7 @@
     "static/media/Rubik-SemiBold.woff": "./static/media/Rubik-SemiBold.43469847b42a832b5bc8.woff",
     "static/media/Rubik-Regular.woff": "./static/media/Rubik-Regular.fc32afaa247384407b9c.woff",
     "static/media/movie-1.png": "./static/media/movie-1.143ef4379cc1431a21b8.png",
+    "static/media/logo-2.png": "./static/media/logo-2.068b604f201bf9bc82db.png",
     "static/media/RobotoCondensed-Bold.woff2": "./static/media/RobotoCondensed-Bold.df90b16c3edf327d7772.woff2",
     "static/media/RobotoCondensed-SemiBold.woff2": "./static/media/RobotoCondensed-SemiBold.39f865752ca701781500.woff2",
     "static/media/phone-icon.svg": "./static/media/phone-icon.085b6257209d9f33cd3d.svg",
@@ -30,12 +31,12 @@
     "static/media/instagram-icon.svg": "./static/media/instagram-icon.530418fca10ed098b233.svg",
     "static/media/burger-menu-icon.svg": "./static/media/burger-menu-icon.1e05a4a2abb6656c35fa.svg",
     "static/media/close-icon.svg": "./static/media/close-icon.5a52daa76779bc96a9a2.svg",
-    "main.f53cc71e.css.map": "./static/css/main.f53cc71e.css.map",
-    "main.4e3b4a11.js.map": "./static/js/main.4e3b4a11.js.map",
+    "main.e20aade6.css.map": "./static/css/main.e20aade6.css.map",
+    "main.fc56695e.js.map": "./static/js/main.fc56695e.js.map",
     "787.0358de2c.chunk.js.map": "./static/js/787.0358de2c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f53cc71e.css",
-    "static/js/main.4e3b4a11.js"
+    "static/css/main.e20aade6.css",
+    "static/js/main.fc56695e.js"
   ]
 }
